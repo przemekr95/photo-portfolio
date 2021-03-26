@@ -1,9 +1,12 @@
+import Slider from './Components/Slider/Slider';
+
 import './App.css';
+
 
 function App() {
   return (
-    <div>
-      test
+    <div className="App">
+      <Slider />
     </div>
   );
 }
