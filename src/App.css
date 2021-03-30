@@ -5,5 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: seashell;
+  background: rgb(89, 98, 117);
+  background: -moz-radial-gradient(circle, rgba(89, 98, 117, 1) 0%, rgba(30, 39, 46, 1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(89, 98, 117, 1) 0%, rgba(30, 39, 46, 1) 100%);
+  background: radial-gradient(circle, rgba(89, 98, 117, 1) 0%, rgba(30, 39, 46, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#596275", endColorstr="#1e272e", GradientType=1);
 }
