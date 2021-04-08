@@ -5,7 +5,7 @@ import './../../css/Slider.css';
 
 const Carousel = () => {
 
-    const [sliderImg, setSliderImg] = useState(1);
+    const [sliderImg, setSliderImg] = useState(0);
 
     const slideLeft = () => {
         sliderImg > 0 && setSliderImg(sliderImg - 1)
