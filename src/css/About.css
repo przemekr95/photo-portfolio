@@ -58,6 +58,19 @@
   line-height: 30px;
 }
 
+.about__exhibitions {
+  width: 90%;
+  height: 90%;
+  background-color: red;
+}
+
+.exhibition__item {
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (min-width: 600px) {
   .about__box {
     -webkit-box-orient: horizontal;
