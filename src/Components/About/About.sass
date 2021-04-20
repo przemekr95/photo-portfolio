@@ -9,7 +9,7 @@
     flex-direction: column-reverse
     width: 100%
     justify-content: center
-    align-items: center
+    align-items: self-start
 
 .about__photo
     height: 100vh
@@ -35,18 +35,26 @@
     line-height: 30px
 
 .about__exhibitions
-
     display: flex
-    flex-wrap: wrap
+    flex-direction: column
     justify-content: center
-    background-color: red
 
 .exhibition__item
     width: 250px
-    height: 300px
+    height: 100%
+    margin: 10px
     background-repeat: no-repeat
     background-size: cover
 
 @media (min-width: 600px)
     .about__box
         flex-direction: row
+
+    .exhibition__item
+        width: 220px
+
+    .about__exhibitions
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        align-items: center

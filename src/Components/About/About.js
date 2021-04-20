@@ -6,13 +6,16 @@ import './../../css/About.css';
 
 const exhibitions = exhibitionsList.map(exhibition => (
     
-    <div 
+    <img 
         className="exhibition__item" 
+        src={exhibition.img} 
         key={exhibition.img}
-        style={{backgroundImage: `url(${exhibition.img})`}}>
-    </div>
+        alt={exhibition.title}>
+    </img>
     
 ))
+
+const aboutMe = '„Jeśli twoje zdjęcia nie są wystarczająco dobre, nie jesteś wystarczająco blisko". Słowa te wypowiedział Robert Capa i to właśnie nimi kieruję się podczas fotografowania.'
 
 const About = () => {
     return(
@@ -22,9 +25,7 @@ const About = () => {
                 </div>
                 <div className="about__text">
                     <h3>Przemek Rura</h3>
-                    <p>I am an aspiring frontend developer, currently living in Cracow. Looking for a job where I can expand my abilities.
-                    Few words about me: I graduated from AGH University of Science and Technology and also from Jagiellonian University. My other hobbies besides programming are photography and volleyball.
-                    Check out examples of my work.</p>
+                    <p>{aboutMe}</p>
                     <div className="about__exhibitions">
                         {exhibitions}
                     </div>

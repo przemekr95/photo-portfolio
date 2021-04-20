@@ -6,10 +6,10 @@ import Exhibition5 from './../../Images/Exhibitions/exhibition-5.jpg';
 import Exhibition6 from './../../Images/Exhibitions/exhibition-6.jpg';
 
 export const exhibitionsList = [
-    {img: Exhibition1},
-    {img: Exhibition2},
-    {img: Exhibition3},
-    {img: Exhibition4},
-    {img: Exhibition5},
-    {img: Exhibition6},
+    {img: Exhibition1, title: "80 lat TTF"},
+    {img: Exhibition2, title: "Przemyśl to!"},
+    {img: Exhibition3, title: "Człowiek"},
+    {img: Exhibition4, title: "Człowiek"},
+    {img: Exhibition5, title: "5cm za aparatem"},
+    {img: Exhibition6, title: "Młoda fotografia"},
 ]
