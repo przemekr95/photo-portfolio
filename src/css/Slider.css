@@ -64,6 +64,10 @@
   font-weight: 300;
 }
 
+.opacity {
+  opacity: 0.1;
+}
+
 @media (min-width: 480px) {
   .slider__center p {
     letter-spacing: 2px;

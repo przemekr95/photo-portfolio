@@ -22,7 +22,7 @@ const Carousel = () => {
                 className="slider__inner" 
                 style={{backgroundImage: `url(${sliderImages[sliderImg].img})`}}>
                     <div className="slider__side" onClick={slideLeft}>
-                        <i className="fas fa-long-arrow-alt-left"></i>
+                        <i className={sliderImg === 0 ? "fas fa-long-arrow-alt-left opacity" : "fas fa-long-arrow-alt-left"}></i>
                     </div>
                     <div className="slider__center">
                         <h2>{sliderImages[sliderImg].title}</h2>
@@ -30,7 +30,7 @@ const Carousel = () => {
                         <p>Przemek Rura | 5cm za aparatem</p>
                     </div>
                     <div className="slider__side" onClick={slideRight}>
-                        <i className="fas fa-long-arrow-alt-right"></i>
+                    <i className={sliderImg === 2 ? "fas fa-long-arrow-alt-right opacity" : "fas fa-long-arrow-alt-right"}></i>
                     </div>
             </div>
         </div>
